@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us — APEX GYM</title>
+    <meta name="description"
+        content="Get in touch with APEX GYM. Questions about memberships, programs, or trainers? We're here to help you forge your legacy.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+    <div id="page-transition"></div>
+
+    <!-- NAV -->
+    <nav class="nav">
+        <a href="index.html" class="nav-logo">APEX<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="trainers.html">Trainers</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="join.html" class="nav-cta">Join Free</a></li>
+        </ul>
+        <button class="hamburger"><span></span><span></span><span></span></button>
+    </nav>
+
+    <div class="mobile-menu">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a>
+        <a href="trainers.html">Trainers</a><a href="membership.html">Membership</a>
+        <a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+        <a href="join.html" class="nav-cta">Join Free</a>
+    </div>
+
+    <!-- CONTACT HERO -->
+    <section class="hero hero-contact">
+        <div class="hero-bg"></div>
+        <div class="hero-noise"></div>
+        <div class="hero-content" style="padding-top: 140px;">
+            <span class="section-tag" data-reveal="up">Get In Touch</span>
+            <h1 class="hero-title" data-reveal="up" data-delay="100">Contact <span>Us.</span></h1>
+            <p class="hero-tagline" data-reveal="up" data-delay="200">
+                Have questions about our facility, elite programs, or membership tiers? Reach out and we'll get back to
+                you within 24 hours.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-layout">
+                <!-- Left Info -->
+                <div data-reveal="left">
+                    <span class="section-tag">Direct Access</span>
+                    <h2 class="section-heading">Connect <span>Now</span></h2>
+                    <div class="contact-info-cards">
+                        <div class="contact-info-card">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>The Lab (Location)</h4>
+                                <p>123 Performance Ave., Elite District, NY 10001</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-card">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Hotline</h4>
+                                <p>+1 (555) 123-4567 (Mon–Sun 8am–8pm)</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-card">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <h4>Email Support</h4>
+                                <p>hello@apexgym.com / members@apexgym.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 3rem;">
+                        <span class="section-tag">Operating Hours</span>
+                        <ul
+                            style="color: var(--ash); margin-top: 1rem; list-style: none; font-size: 0.95rem; line-height: 2;">
+                            <li><strong style="color: var(--white);">Mon–Fri:</strong> 5am – 11pm</li>
+                            <li><strong style="color: var(--white);">Sat–Sun:</strong> 6am – 10pm</li>
+                            <li><strong style="color: var(--acid);">Member Access:</strong> 24/7 Keycard Entry</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right Form -->
+                <div data-reveal="right" data-delay="100">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                                <span class="form-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                                <span class="form-error"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                                <span class="form-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="interest">Interested In</label>
+                                <select id="interest" name="interest">
+                                    <option value="general">General Inquiry</option>
+                                    <option value="membership">Membership Tiers</option>
+                                    <option value="pt">Personal Training</option>
+                                    <option value="corporate">Corporate Wellness</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="How can we help you crush your goals?"
+                                required></textarea>
+                            <span class="form-error"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit-btn"
+                            style="width: 100%; justify-content: center;">Send Message</button>
+                        <div class="form-success">Message sent! We'll be in touch shortly.</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="nav-logo">APEX<span>.</span></div>
+                <p>More than a gym. APEX is a premium performance environment engineered for elite results.</p>
+                <div class="footer-socials">
+                    <a href="#">IG</a><a href="#">FB</a><a href="#">YT</a><a href="#">𝕏</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Training</h4>
+                <ul>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="trainers.html">Trainers</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="join.html">Join Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Hours</h4>
+                <ul>
+                    <li>5am - 11pm Daily</li>
+                    <li>24/7 Member Key Access</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 APEX GYM. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

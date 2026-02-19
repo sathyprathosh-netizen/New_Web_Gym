@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APEX GYM — Forge Your Legacy</title>
+    <meta name="description"
+        content="APEX GYM is a premium performance club where elite athletes are forged. Join now for world-class training, expert coaches, and cutting-edge facilities." />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+
+<body>
+
+    <!-- PAGE TRANSITION -->
+    <div id="page-transition"></div>
+
+    <!-- NAV -->
+    <nav class="nav" id="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-logo">APEX<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="trainers.html">Trainers</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="join.html" class="nav-cta">Join Free</a></li>
+        </ul>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" role="dialog" aria-label="Mobile navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="membership.html">Membership</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="join.html" class="nav-cta">Join Free</a>
+    </div>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero home-hero" aria-label="Hero section">
+        <div class="hero-bg"></div>
+        <div class="hero-noise"></div>
+        <div class="hero-shape" aria-hidden="true">
+            <div class="hero-shape-inner">
+                <div class="hero-shape-text">APEX</div>
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=900&q=80&auto=format&fit=crop"
+                    alt="Athlete training at APEX GYM" style="width:100%;height:100%;object-fit:cover;opacity:0.45;" />
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-eyebrow" aria-label="Tagline">Performance Club · Est. 2018</div>
+
+            <h1 class="hero-title" aria-label="Forge Your Legacy">
+                <span class="word"><span class="word-inner">Forge</span></span>&nbsp;
+                <span class="word"><span class="word-inner">Your</span></span>&nbsp;
+                <span class="word"><span class="word-inner">Legacy</span></span>
+            </h1>
+
+            <p class="hero-tagline">
+                Where iron meets intention. APEX is not a gym — it's a proving ground for those who refuse to settle.
+            </p>
+
+            <div class="hero-actions">
+                <a href="join.html" class="btn btn-primary btn-magnetic" id="hero-cta">
+                    <span class="btn-ring"></span>
+                    Start Free Trial
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </a>
+                <a href="programs.html" class="btn btn-outline">Explore Programs</a>
+            </div>
+
+            <div class="hero-stats">
+                <div data-reveal="up" data-delay="1400">
+                    <div class="hero-stat-num"><span data-count="2400">0</span><span>+</span></div>
+                    <div class="hero-stat-label">Active Members</div>
+                </div>
+                <div data-reveal="up" data-delay="1550">
+                    <div class="hero-stat-num"><span data-count="18">0</span><span>+</span></div>
+                    <div class="hero-stat-label">Expert Trainers</div>
+                </div>
+                <div data-reveal="up" data-delay="1700">
+                    <div class="hero-stat-num"><span data-count="96">0</span><span>%</span></div>
+                    <div class="hero-stat-label">Success Rate</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator" aria-hidden="true">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee-section" aria-hidden="true">
+        <div class="marquee-track">
+            <div class="marquee-item"><span class="marquee-dot"></span>Strength Training</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>CrossFit</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>Personal Training</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>Cardio</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>Yoga &amp; Mobility</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>Nutrition</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>Recovery</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>HIIT</div>
+            <!-- Duplicate for seamless loop -->
+            <div class="marquee-item"><span class="marquee-dot"></span>Strength Training</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>CrossFit</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>Personal Training</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>Cardio</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>Yoga &amp; Mobility</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>Nutrition</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>Recovery</div>
+            <div class="marquee-item"><span class="marquee-dot"></span>HIIT</div>
+        </div>
+    </div>
+
+    <!-- ===== WHY APEX ===== -->
+    <section class="section" aria-labelledby="why-heading">
+        <div class="container">
+            <div class="text-center" data-reveal="up">
+                <span class="section-tag">Why Choose Us</span>
+                <h2 class="section-heading" id="why-heading">Training That <span>Transforms</span></h2>
+                <p class="section-sub">We combine the science of performance with the art of motivation — built for
+                    those who demand more.</p>
+            </div>
+
+            <div class="why-grid" role="list">
+                <div class="why-card" data-reveal="skew-up" data-delay="100" role="listitem">
+                    <div class="why-card-num">01</div>
+                    <div class="why-icon" aria-hidden="true">⚡</div>
+                    <h3>Elite Coaching</h3>
+                    <p>Every trainer holds international certifications and averages 8+ years of performance coaching
+                        experience.</p>
+                </div>
+                <div class="why-card" data-reveal="skew-up" data-delay="200" role="listitem">
+                    <div class="why-card-num">02</div>
+                    <div class="why-icon" aria-hidden="true">🏗️</div>
+                    <h3>Premium Equipment</h3>
+                    <p>20,000 sq ft of cutting-edge machinery, free weights, and functional training zones — always
+                        maintained.</p>
+                </div>
+                <div class="why-card" data-reveal="skew-up" data-delay="300" role="listitem">
+                    <div class="why-card-num">03</div>
+                    <div class="why-icon" aria-hidden="true">🎯</div>
+                    <h3>Personalized Plans</h3>
+                    <p>Custom training blueprints tailored to your body, goals, and timeline — not a generic program.
+                    </p>
+                </div>
+                <div class="why-card" data-reveal="skew-up" data-delay="200" role="listitem">
+                    <div class="why-card-num">04</div>
+                    <div class="why-icon" aria-hidden="true">🔬</div>
+                    <h3>Science-Backed</h3>
+                    <p>Every protocol is grounded in sport science — periodization, progressive overload, and recovery
+                        built in.</p>
+                </div>
+                <div class="why-card" data-reveal="skew-up" data-delay="300" role="listitem">
+                    <div class="why-card-num">05</div>
+                    <div class="why-icon" aria-hidden="true">🔥</div>
+                    <h3>Community Energy</h3>
+                    <p>Train alongside athletes who push you harder. The APEX community is your biggest competitive
+                        advantage.</p>
+                </div>
+                <div class="why-card" data-reveal="skew-up" data-delay="400" role="listitem">
+                    <div class="why-card-num">06</div>
+                    <div class="why-icon" aria-hidden="true">🕐</div>
+                    <h3>Open 24/7</h3>
+                    <p>Your schedule, your rules. APEX never closes — because champions don't follow office hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROGRAMS TEASE ===== -->
+    <section class="section" style="padding-top:0;" aria-labelledby="programs-tease-heading">
+        <div class="container">
+            <div class="mask-reveal text-center" data-reveal="up">
+                <span class="section-tag">Our Programs</span>
+                <h2 class="section-heading mask-reveal-inner" id="programs-tease-heading">Train Like <span>No One
+                        Else</span></h2>
+            </div>
+            <div class="programs-tease" role="list">
+                <div class="program-tile tilt-wrap" role="listitem">
+                    <div class="tilt-inner">
+                        <div class="program-tile-bg">
+                            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1000&q=80"
+                                alt="Strength Training" />
+                        </div>
+                        <div class="program-tile-overlay"></div>
+                        <span class="program-tile-tag">Popular</span>
+                        <div class="program-tile-content">
+                            <h3>Strength Training</h3>
+                            <p>Compound lifts, progressive loading, real results.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-tile tilt-wrap" role="listitem">
+                    <div class="tilt-inner">
+                        <div class="program-tile-bg">
+                            <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=1000&q=80"
+                                alt="CrossFit" />
+                        </div>
+                        <div class="program-tile-overlay"></div>
+                        <span class="program-tile-tag">Intense</span>
+                        <div class="program-tile-content">
+                            <h3>CrossFit</h3>
+                            <p>Functional fitness at maximum intensity.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-tile tilt-wrap" role="listitem">
+                    <div class="tilt-inner">
+                        <div class="program-tile-bg">
+                            <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=1000&q=80"
+                                alt="Personal Training" />
+                        </div>
+                        <div class="program-tile-overlay"></div>
+                        <span class="program-tile-tag">1-on-1</span>
+                        <div class="program-tile-content">
+                            <h3>Personal Training</h3>
+                            <p>Your coach, your schedule, your results.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-tile tilt-wrap" role="listitem">
+                    <div class="tilt-inner">
+                        <div class="program-tile-bg">
+                            <img src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=1000&q=80"
+                                alt="Yoga and Mobility" />
+                        </div>
+                        <div class="program-tile-overlay"></div>
+                        <div class="program-tile-content">
+                            <h3>Yoga &amp; Mobility</h3>
+                            <p>Recover smarter, move better, perform braver.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:3rem;">
+                <a href="programs.html" class="btn btn-outline">View All Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonial-strip" aria-labelledby="testimonials-heading">
+        <div class="container">
+            <div class="text-center" data-reveal="up">
+                <span class="section-tag">Success Stories</span>
+                <h2 class="section-heading" id="testimonials-heading">Elite <span>Results</span></h2>
+            </div>
+
+            <div class="testimonial-grid">
+                <!-- Marcus J. -->
+                <div class="testimonial-card" data-reveal="3d-flip" data-delay="100">
+                    <div class="testimonial-card-quote">"</div>
+                    <div class="stars">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testimonial-text">"I dropped 28 lbs in 4 months and built muscle simultaneously. The
+                        trainers here actually care about your progress, not just your payment."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">MJ</div>
+                        <div class="testimonial-info">
+                            <h4>Marcus J.</h4>
+                            <p>Member for 14 months</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sofia R. -->
+                <div class="testimonial-card" data-reveal="3d-flip" data-delay="250">
+                    <div class="testimonial-card-quote">"</div>
+                    <div class="stars">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testimonial-text">"APEX is in another league. The equipment, the vibes, the programming —
+                        everything is dialed in. I've trained at 6 gyms. None come close."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">SR</div>
+                        <div class="testimonial-info">
+                            <h4>Sofia R.</h4>
+                            <p>Competitive athlete</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Aaron K. -->
+                <div class="testimonial-card" data-reveal="3d-flip" data-delay="400">
+                    <div class="testimonial-card-quote">"</div>
+                    <div class="stars">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testimonial-text">"My deadlift went from 180 to 310 lbs in 8 months following the APEX
+                        strength program. The coaches map out every single session."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">AK</div>
+                        <div class="testimonial-info">
+                            <h4>Aaron K.</h4>
+                            <p>Powerlifter</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <div class="cta-banner" data-reveal="scale" aria-label="Join APEX call to action">
+        <div class="cta-banner-inner container">
+            <h2>Ready to Become <span style="text-decoration:underline;text-underline-offset:6px;">Unstoppable?</span>
+            </h2>
+            <p>Your first week is on us. No contracts, no excuses, no limits.</p>
+            <a href="join.html" class="btn btn-dark btn-magnetic" id="cta-join">Claim Free Trial →</a>
+        </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" aria-label="Site footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="nav-logo">APEX<span>.</span></div>
+                <p>More than a gym. APEX is a premium performance environment engineered for elite results — body,
+                    mind,
+                    and legacy.</p>
+                <div class="footer-socials" aria-label="Social media links">
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="YouTube">YT</a>
+                    <a href="#" aria-label="Twitter / X">𝕏</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Training</h4>
+                <ul>
+                    <li><a href="programs.html">All Programs</a></li>
+                    <li><a href="trainers.html">Our Trainers</a></li>
+                    <li><a href="membership.html">Memberships</a></li>
+                    <li><a href="gallery.html">Transformations</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About APEX</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Hours</h4>
+                <ul>
+                    <li><a href="#">Mon–Fri: 5am–11pm</a></li>
+                    <li><a href="#">Sat–Sun: 6am–10pm</a></li>
+                    <li><a href="#">Members: 24/7 Key Access</a></li>
+                    <li><a href="contact.html">Find Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 APEX Performance Club. All rights reserved.</p>
+            <p>Privacy Policy · Terms of Service</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

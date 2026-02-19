@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Legacy — APEX GYM</title>
+    <meta name="description"
+        content="Claim your free 7-day trial at APEX GYM. No commitment, just results. Join the city's most elite fitness community today.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body class="join-body">
+
+    <div id="page-transition"></div>
+
+    <!-- ===== NAVIGATION (Minimal) ===== -->
+    <nav class="join-nav">
+        <div class="container" style="display:flex; width:100%; align-items:center;">
+            <a href="index.html" class="nav-logo">APEX<span>.</span></a>
+            <a href="index.html" style="margin-left:auto;" class="btn-back">← Back to Site</a>
+        </div>
+    </nav>
+
+    <!-- ===== JOIN HERO ===== -->
+    <main>
+        <section class="join-hero">
+            <div class="join-hero-bg"></div>
+            <div class="hero-noise"></div>
+
+            <div class="container">
+                <div class="join-content">
+                    <span class="section-tag" data-reveal="skew-up">Limited Time Offer</span>
+                    <h1 class="join-hero-title" data-reveal="skew-up" data-delay="100">Start Your <span>Legacy.</span>
+                    </h1>
+                    <p class="hero-tagline" data-reveal="skew-up" data-delay="200">
+                        We're looking for 50 dedicated individuals to join our performance cohort this month. Claim your
+                        free 7-day pass before the spots vanish.
+                    </p>
+
+                    <!-- Countdown -->
+                    <div class="countdown-wrap" data-reveal="scale" data-delay="300">
+                        <div class="countdown-block">
+                            <div class="countdown-num" id="cd-days">00</div>
+                            <div class="countdown-label">Days</div>
+                        </div>
+                        <div class="countdown-block">
+                            <div class="countdown-num" id="cd-hours">00</div>
+                            <div class="countdown-label">Hours</div>
+                        </div>
+                        <div class="countdown-block">
+                            <div class="countdown-num" id="cd-mins">00</div>
+                            <div class="countdown-label">Mins</div>
+                        </div>
+                        <div class="countdown-block">
+                            <div class="countdown-num" id="cd-secs">00</div>
+                            <div class="countdown-label">Secs</div>
+                        </div>
+                    </div>
+
+                    <!-- Join Form -->
+                    <div class="join-form-wrap" data-reveal="skew-up" data-delay="400">
+                        <div class="urgency-bar">Only 7 Free Passes Remaining!</div>
+                        <form id="join-form" class="join-form">
+                            <div class="form-group">
+                                <label for="join-name">Full Name</label>
+                                <input type="text" id="join-name" name="name" placeholder="Enter your full name"
+                                    required>
+                                <span class="form-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="join-email">Email Address</label>
+                                <input type="email" id="join-email" name="email" placeholder="you@example.com" required>
+                                <span class="form-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="join-tier">Preferred Tier</label>
+                                <select id="join-tier" name="tier">
+                                    <option value="starter">Starter Plan ($29/mo)</option>
+                                    <option value="pro" selected>Pro Athlete Plan ($59/mo)</option>
+                                    <option value="elite">Elite Performance ($99/mo)</option>
+                                </select>
+                            </div>
+                            <div class="form-group" style="display: flex; gap: 12px; align-items: flex-start;">
+                                <input type="checkbox" id="join-terms" required style="width: auto; margin-top: 6px;">
+                                <label for="join-terms"
+                                    style="text-transform: none; letter-spacing: 0; font-size: 0.85rem; cursor: pointer; color: var(--muted);">
+                                    I acknowledge that I am physically fit and agree to the APEX terms.
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-magnetic"
+                                style="width:100%; justify-content:center;">
+                                Claim My Free Week ⚡
+                            </button>
+                            <p style="margin-top: 1.5rem; color: var(--muted); font-size: 0.8rem;">
+                                Instant access. No credit card required.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIAL MINI -->
+        <section class="section" style="padding-top: 0;">
+            <div class="container" style="max-width: 700px; text-align: center;">
+                <div data-reveal="skew-up">
+                    <p style="font-style: italic; color: var(--ash); line-height: 1.8; font-size: 1.2rem;">
+                        "The atmosphere at APEX is electric. I've never trained in a place that makes me want to push
+                        this
+                        hard. Best decision for my legacy."
+                    </p>
+                    <div
+                        style="margin-top: 1.2rem; font-family: var(--font-head); font-weight: 700; text-transform: uppercase; color: var(--acid); letter-spacing: 0.1em;">
+                        — David K, Pro Member
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER (Minimal) -->
+    <footer style="padding: 4rem 0; text-align: center; border-top: 1px solid var(--border);">
+        <div class="nav-logo" style="margin-bottom: 1rem;">APEX<span>.</span></div>
+        <p style="color: var(--muted); font-size: 0.8rem;">
+            © 2026 APEX Performance Club. ENGINEERED FOR ELITE RESULTS.
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
